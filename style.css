@@ -814,6 +814,7 @@ form {
     }
     #page3 h1{
         width: 90%;
+        margin-top:0 !important;
         font-size: 1.5rem !important;
     }
 
@@ -982,8 +983,6 @@ form {
         width: 100%;
         padding: 0;
     }
-
-
 }
 
 
@@ -1048,6 +1047,7 @@ form {
         width: 100%;
     }
     #certificate #div2{
+        padding-left: 10px;
         width: 90%;
         text-align: start;
     }
@@ -1155,6 +1155,22 @@ form {
 
     
 }
+@media (max-width:370px){
+    .homeContent h1{
+        font-size: 2rem;
+    }
+    #page3 h1{
+        padding: 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #p5div2 h2{
+        font-size:1.75rem;
+    }
+
+
+}
+
 @media (min-width:950px)and (max-width:980px){
     #page3 #Up{
         width: 80%;
