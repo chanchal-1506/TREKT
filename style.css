@@ -461,7 +461,10 @@ form {
     color: #854DCE;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     padding-bottom: 20px;
+    
 }
 #footer #ficon{
     font-size: 1.5rem;
@@ -510,6 +513,7 @@ form {
     #cont{
         margin: 2rem;
     }
+
     
 }
 
@@ -567,6 +571,7 @@ form {
     .homeimg img{
         height: 350px;
     }
+
      
 }
 
@@ -578,6 +583,7 @@ form {
     #p4div1 h2{
         padding-right: 0;
     }
+
 }
 
 
@@ -757,8 +763,19 @@ form {
         margin:0;
         margin-top:0.8rem;
     }
-    
-    
+    #footer .credit{
+       
+        font-size: 19px;
+        width: 33%;
+    }
+    #footer #ficon{
+        text-align: center;
+        
+    }
+    #footer #cre{
+        text-align: end;
+    }
+
 }
 
 
@@ -862,6 +879,8 @@ form {
         align-items: center;
     }
     #p4div2{
+        display: flex;
+        justify-content: center;
         margin-top: 6px;
         height: 30%;
         width: 80%;
@@ -998,6 +1017,16 @@ form {
         margin: 0;
         width: 100%;
         padding: 0;
+    }
+
+    #footer .credit{
+       font-size: 15px;
+        width: 100%;
+    }
+    #footer #ficon{
+        display: flex;
+        text-align: center;
+        
     }
 }
 
@@ -1167,6 +1196,18 @@ form {
     #footer{
         display: flex;
         flex-direction: column;
+    }
+    #footer .credit{
+         text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+    #footer #ficon{
+        text-align: center;
+        
+    }
+    #footer #cre{
+        text-align:center;
     }
 
     
