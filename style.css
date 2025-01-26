@@ -111,6 +111,9 @@ nav ul li a:hover{
     border: 2px solid #854DCE;
     
 }
+.homeContent .btn1{
+    margin-right:0.6rem;
+}
 .homeContent button:hover{
     color: white;
     background-color: #854DCE;
@@ -449,7 +452,7 @@ form {
     color: #854DCE;
     display: flex;
     justify-content: space-between;
-    margin:1rem;
+    padding-bottom: 20px;
 }
 #footer #ficon{
     font-size: 1.5rem;
@@ -805,6 +808,10 @@ form {
         text-align: center; /* Center-align text content */
         padding: 10px; /* Optional padding */
         width: 80%; /* Adjust width if needed */
+    }
+
+    #page3{
+        margin-top:2.5rem !important
     }
 
     #page3 #Up{
@@ -1166,6 +1173,9 @@ form {
     }
     #p5div2 h2{
         font-size:1.75rem;
+    }
+    #certificate #div2 h2{
+        font-size:1.5rem;
     }
 
 
