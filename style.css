@@ -15,13 +15,21 @@ html,body{
     margin: 0 auto; /* Center the content */
     padding: 0 20px; /* Add space on left and right */
     max-width: 1200px; /* Set a max width for better readability */
-    width: 100%; /* Ensure it stretches across the viewport */
+    width: 100%;
+    /* Ensure it stretches across the viewport */
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Optional: Styling for the container */
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -349,7 +357,8 @@ span{
 #contact{
     margin: 0;
     display: flex; /* Enable Flexbox */
-    justify-content: space-between; /* Optional: Adds space between the sections */
+    justify-content: center;
+    align-items: center; /* Optional: Adds space between the sections */
     padding: 20px;
     box-sizing: border-box;
 }
